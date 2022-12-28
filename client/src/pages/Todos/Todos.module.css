@@ -1,0 +1,57 @@
+.todoCardContainer {
+  margin: 2rem 4rem;
+}
+
+.todoHeaderContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.todoCompletedCheckbox input[type="checkbox"] {
+  margin-right: 0.25rem;
+}
+
+.title {
+  width: 65%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todosListHeader {
+  text-align: center;
+}
+
+.hideCompletedTodos {
+  margin: 1rem auto;
+}
+
+.hideCompletedTodosToggle input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.createTodo {
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.createTodoTitle {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.createTodo form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.createTodo form input[type="text"],
+.createTodo form textarea {
+  border: 1px solid #ccc;
+  margin-left: 1rem;
+  border-radius: 4px;
+}

@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 
 const todosRouter = require("./routes/todos.routes");
 
-app.use(function (req, res, next) {
+app.use(function (_, res, next) {
   res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
   res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
   res.setHeader(
